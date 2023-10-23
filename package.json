@@ -1,7 +1,7 @@
 {
   "name": "joker",
   "version": "0.0.1",
-  "description": "Test repo for Workflow Environment",
+  "description": "example",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,8 @@
     "url": "https://github.com/KarenJoo/joker/issues"
   },
   "homepage": "https://github.com/KarenJoo/joker#readme",
-  "description": "example",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
