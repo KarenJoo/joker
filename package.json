@@ -20,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/KarenJoo/joker/issues"
   },
-  "homepage": "https://github.com/KarenJoo/joker#readme"
+  "homepage": "https://github.com/KarenJoo/joker#readme",
+  "description": "example",
+  "type": "module"
 }
