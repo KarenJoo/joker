@@ -36,15 +36,13 @@
     "karenjo-joker": "^0.1.0"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "eslint --fix"
-    ],
+    "*.js": "eslint --cache --fix",
     "*.html": [
       "prettier --write"
     ],
     "*.scss": [
       "prettier --write"
-    ]
+    ],
+    "*.--fix": "prettier --write"
   }
 }
